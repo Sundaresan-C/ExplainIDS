@@ -1,0 +1,10 @@
+[
+  {
+    "truth": "DDoS",
+    "text": "Classified as DDoS (99% confidence), mainly because the variation in reply-packet timing is 1,026 (much higher than normal traffic, typically 0); the average gap between reply packets is 3,622 (much higher than normal traffic, typically 0); the reply packet rate is 283 (much higher than normal traffic, typically 1.61)."
+  },
+  {
+    "truth": "Recon",
+    "text": "Classified as Recon (99% confidence), mainly because the flow duration is 1,265 (much lower than normal traffic, typically 37.7k); the bytes sent by the initiator is 0 (much lower than normal traffic, typically 37); the reply header bytes is 20 (higher than normal traffic, typically 8)."
+  }
+]

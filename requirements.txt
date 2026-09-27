@@ -1,0 +1,17 @@
+numpy<2.1
+pandas
+pyarrow
+scikit-learn
+imbalanced-learn
+xgboost
+tensorflow-cpu==2.16.2
+shap
+lime
+matplotlib
+plotly
+streamlit
+scapy
+reportlab
+joblib
+python-docx
+python-pptx

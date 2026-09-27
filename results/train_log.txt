@@ -1,0 +1,228 @@
+dataset: 4783 rows; classes:
+Label
+DoS           973
+BruteForce    799
+Web-based     798
+Benign        689
+Spoofing      611
+DDoS          457
+Recon         390
+Mirai          66
+Name: count, dtype: int64
+C:\Users\vediyappan.chinnasam\ExplainIDS\.venv\Lib\site-packages\sklearn\linear_model\_logistic.py:1435: FutureWarning: 'n_jobs' has no effect since 1.8 and will be removed in 1.10. You provided 'n_jobs=-1', please leave it unspecified.
+  warnings.warn(msg, category=FutureWarning)
+Logistic Regression          acc=0.8046 f1=0.8322 train=0.2s
+Decision Tree                acc=0.7785 f1=0.8067 train=0.0s
+KNN (k=5)                    acc=0.7921 f1=0.8205 train=0.0s
+Random Forest                acc=0.7795 f1=0.8075 train=0.5s
+XGBoost                      acc=0.8140 f1=0.8365 train=1.6s
+Epoch 1/30
+101/101 - 3s - 29ms/step - accuracy: 0.4193 - loss: 1.5239 - val_accuracy: 0.5031 - val_loss: 1.1558 - learning_rate: 0.0010
+Epoch 2/30
+101/101 - 1s - 10ms/step - accuracy: 0.5813 - loss: 1.0714 - val_accuracy: 0.6952 - val_loss: 0.8520 - learning_rate: 0.0010
+Epoch 3/30
+101/101 - 1s - 9ms/step - accuracy: 0.7084 - loss: 0.7784 - val_accuracy: 0.7516 - val_loss: 0.6439 - learning_rate: 0.0010
+Epoch 4/30
+101/101 - 1s - 8ms/step - accuracy: 0.7615 - loss: 0.6279 - val_accuracy: 0.7557 - val_loss: 0.5775 - learning_rate: 0.0010
+Epoch 5/30
+101/101 - 1s - 10ms/step - accuracy: 0.7798 - loss: 0.5580 - val_accuracy: 0.7808 - val_loss: 0.5121 - learning_rate: 0.0010
+Epoch 6/30
+101/101 - 1s - 10ms/step - accuracy: 0.7817 - loss: 0.5219 - val_accuracy: 0.7808 - val_loss: 0.4947 - learning_rate: 0.0010
+Epoch 7/30
+101/101 - 1s - 8ms/step - accuracy: 0.8012 - loss: 0.4846 - val_accuracy: 0.7808 - val_loss: 0.4898 - learning_rate: 0.0010
+Epoch 8/30
+101/101 - 1s - 9ms/step - accuracy: 0.7972 - loss: 0.4754 - val_accuracy: 0.7891 - val_loss: 0.4802 - learning_rate: 0.0010
+Epoch 9/30
+101/101 - 1s - 10ms/step - accuracy: 0.8071 - loss: 0.4568 - val_accuracy: 0.7850 - val_loss: 0.4811 - learning_rate: 0.0010
+Epoch 10/30
+101/101 - 1s - 9ms/step - accuracy: 0.8117 - loss: 0.4599 - val_accuracy: 0.7829 - val_loss: 0.4748 - learning_rate: 0.0010
+Epoch 11/30
+101/101 - 1s - 9ms/step - accuracy: 0.8085 - loss: 0.4468 - val_accuracy: 0.7912 - val_loss: 0.4671 - learning_rate: 0.0010
+Epoch 12/30
+101/101 - 1s - 10ms/step - accuracy: 0.8050 - loss: 0.4401 - val_accuracy: 0.7912 - val_loss: 0.4656 - learning_rate: 0.0010
+Epoch 13/30
+101/101 - 1s - 13ms/step - accuracy: 0.8106 - loss: 0.4443 - val_accuracy: 0.7871 - val_loss: 0.4742 - learning_rate: 0.0010
+Epoch 14/30
+101/101 - 2s - 15ms/step - accuracy: 0.8053 - loss: 0.4509 - val_accuracy: 0.7891 - val_loss: 0.4682 - learning_rate: 0.0010
+Epoch 15/30
+101/101 - 1s - 11ms/step - accuracy: 0.8122 - loss: 0.4319 - val_accuracy: 0.7912 - val_loss: 0.4649 - learning_rate: 5.0000e-04
+Epoch 16/30
+101/101 - 1s - 11ms/step - accuracy: 0.8144 - loss: 0.4290 - val_accuracy: 0.7912 - val_loss: 0.4649 - learning_rate: 5.0000e-04
+Epoch 17/30
+101/101 - 1s - 12ms/step - accuracy: 0.8101 - loss: 0.4280 - val_accuracy: 0.7912 - val_loss: 0.4631 - learning_rate: 5.0000e-04
+Epoch 18/30
+101/101 - 1s - 11ms/step - accuracy: 0.8144 - loss: 0.4245 - val_accuracy: 0.7912 - val_loss: 0.4627 - learning_rate: 5.0000e-04
+Epoch 19/30
+101/101 - 1s - 10ms/step - accuracy: 0.8128 - loss: 0.4270 - val_accuracy: 0.7891 - val_loss: 0.4640 - learning_rate: 5.0000e-04
+Epoch 20/30
+101/101 - 1s - 10ms/step - accuracy: 0.8130 - loss: 0.4270 - val_accuracy: 0.7891 - val_loss: 0.4688 - learning_rate: 5.0000e-04
+Epoch 21/30
+101/101 - 1s - 11ms/step - accuracy: 0.8136 - loss: 0.4311 - val_accuracy: 0.7912 - val_loss: 0.4619 - learning_rate: 2.5000e-04
+Epoch 22/30
+101/101 - 1s - 10ms/step - accuracy: 0.8109 - loss: 0.4223 - val_accuracy: 0.7912 - val_loss: 0.4622 - learning_rate: 2.5000e-04
+Epoch 23/30
+101/101 - 1s - 11ms/step - accuracy: 0.8160 - loss: 0.4218 - val_accuracy: 0.7912 - val_loss: 0.4620 - learning_rate: 2.5000e-04
+Epoch 24/30
+101/101 - 1s - 12ms/step - accuracy: 0.8197 - loss: 0.4236 - val_accuracy: 0.7912 - val_loss: 0.4618 - learning_rate: 1.2500e-04
+Epoch 25/30
+101/101 - 1s - 9ms/step - accuracy: 0.8074 - loss: 0.4226 - val_accuracy: 0.7912 - val_loss: 0.4612 - learning_rate: 1.2500e-04
+Epoch 26/30
+101/101 - 1s - 9ms/step - accuracy: 0.8152 - loss: 0.4223 - val_accuracy: 0.7912 - val_loss: 0.4611 - learning_rate: 1.2500e-04
+Epoch 27/30
+101/101 - 1s - 9ms/step - accuracy: 0.8130 - loss: 0.4238 - val_accuracy: 0.7912 - val_loss: 0.4615 - learning_rate: 1.2500e-04
+Epoch 28/30
+101/101 - 1s - 12ms/step - accuracy: 0.8106 - loss: 0.4228 - val_accuracy: 0.7912 - val_loss: 0.4616 - learning_rate: 1.2500e-04
+Epoch 29/30
+101/101 - 1s - 12ms/step - accuracy: 0.8085 - loss: 0.4232 - val_accuracy: 0.7912 - val_loss: 0.4616 - learning_rate: 6.2500e-05
+Epoch 30/30
+101/101 - 1s - 10ms/step - accuracy: 0.8189 - loss: 0.4201 - val_accuracy: 0.7912 - val_loss: 0.4616 - learning_rate: 6.2500e-05
+1D-CNN                       acc=0.7785 f1=0.8163 train=33.5s
+Hybrid CNN-XGBoost (paper)   acc=0.7994 f1=0.8298 train=5.5s
+WARNING:tensorflow:5 out of the last 6 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x000002E04648C720> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+Fusion CNN-XGBoost (ours)    acc=0.7994 f1=0.8247 train=8.9s
+deploying: hybrid
+Epoch 1/60
+31/31 - 2s - 80ms/step - loss: 0.1561 - val_loss: 0.1496
+Epoch 2/60
+31/31 - 0s - 6ms/step - loss: 0.1059 - val_loss: 0.0738
+Epoch 3/60
+31/31 - 0s - 6ms/step - loss: 0.0370 - val_loss: 0.0191
+Epoch 4/60
+31/31 - 0s - 8ms/step - loss: 0.0163 - val_loss: 0.0143
+Epoch 5/60
+31/31 - 0s - 7ms/step - loss: 0.0136 - val_loss: 0.0121
+Epoch 6/60
+31/31 - 0s - 4ms/step - loss: 0.0113 - val_loss: 0.0095
+Epoch 7/60
+31/31 - 0s - 4ms/step - loss: 0.0086 - val_loss: 0.0070
+Epoch 8/60
+31/31 - 0s - 5ms/step - loss: 0.0066 - val_loss: 0.0057
+Epoch 9/60
+31/31 - 0s - 5ms/step - loss: 0.0053 - val_loss: 0.0047
+Epoch 10/60
+31/31 - 17s - 535ms/step - loss: 0.0042 - val_loss: 0.0037
+Epoch 11/60
+31/31 - 1s - 18ms/step - loss: 0.0033 - val_loss: 0.0027
+Epoch 12/60
+31/31 - 0s - 9ms/step - loss: 0.0025 - val_loss: 0.0019
+Epoch 13/60
+31/31 - 0s - 7ms/step - loss: 0.0020 - val_loss: 0.0015
+Epoch 14/60
+31/31 - 0s - 7ms/step - loss: 0.0017 - val_loss: 0.0012
+Epoch 15/60
+31/31 - 0s - 7ms/step - loss: 0.0015 - val_loss: 0.0011
+Epoch 16/60
+31/31 - 0s - 6ms/step - loss: 0.0013 - val_loss: 9.6429e-04
+Epoch 17/60
+31/31 - 0s - 5ms/step - loss: 0.0012 - val_loss: 8.7183e-04
+Epoch 18/60
+31/31 - 0s - 6ms/step - loss: 0.0010 - val_loss: 7.9994e-04
+Epoch 19/60
+31/31 - 0s - 5ms/step - loss: 9.3974e-04 - val_loss: 7.2631e-04
+Epoch 20/60
+31/31 - 0s - 4ms/step - loss: 8.5928e-04 - val_loss: 6.8066e-04
+Epoch 21/60
+31/31 - 0s - 5ms/step - loss: 8.0272e-04 - val_loss: 6.4571e-04
+Epoch 22/60
+31/31 - 0s - 5ms/step - loss: 7.5403e-04 - val_loss: 6.1415e-04
+Epoch 23/60
+31/31 - 0s - 4ms/step - loss: 7.1626e-04 - val_loss: 6.0607e-04
+Epoch 24/60
+31/31 - 0s - 4ms/step - loss: 6.8933e-04 - val_loss: 5.7083e-04
+Epoch 25/60
+31/31 - 0s - 5ms/step - loss: 6.5695e-04 - val_loss: 5.4780e-04
+Epoch 26/60
+31/31 - 0s - 5ms/step - loss: 6.3952e-04 - val_loss: 5.4082e-04
+Epoch 27/60
+31/31 - 0s - 5ms/step - loss: 6.2502e-04 - val_loss: 5.3500e-04
+Epoch 28/60
+31/31 - 0s - 6ms/step - loss: 6.0825e-04 - val_loss: 5.2819e-04
+Epoch 29/60
+31/31 - 0s - 7ms/step - loss: 5.9767e-04 - val_loss: 5.2277e-04
+Epoch 30/60
+31/31 - 0s - 5ms/step - loss: 5.8871e-04 - val_loss: 5.1999e-04
+Epoch 31/60
+31/31 - 0s - 6ms/step - loss: 5.7855e-04 - val_loss: 5.1378e-04
+Epoch 32/60
+31/31 - 0s - 6ms/step - loss: 5.7016e-04 - val_loss: 5.1040e-04
+Epoch 33/60
+31/31 - 0s - 15ms/step - loss: 5.5867e-04 - val_loss: 5.0580e-04
+Epoch 34/60
+31/31 - 0s - 6ms/step - loss: 5.5348e-04 - val_loss: 5.0338e-04
+Epoch 35/60
+31/31 - 0s - 4ms/step - loss: 5.4697e-04 - val_loss: 5.0581e-04
+Epoch 36/60
+31/31 - 0s - 7ms/step - loss: 5.3811e-04 - val_loss: 4.9856e-04
+Epoch 37/60
+31/31 - 0s - 5ms/step - loss: 5.3650e-04 - val_loss: 5.0030e-04
+Epoch 38/60
+31/31 - 0s - 4ms/step - loss: 5.2849e-04 - val_loss: 4.9885e-04
+Epoch 39/60
+31/31 - 0s - 4ms/step - loss: 5.2617e-04 - val_loss: 4.9461e-04
+Epoch 40/60
+31/31 - 0s - 6ms/step - loss: 5.1778e-04 - val_loss: 4.9342e-04
+Epoch 41/60
+31/31 - 0s - 5ms/step - loss: 5.1269e-04 - val_loss: 4.8813e-04
+Epoch 42/60
+31/31 - 0s - 5ms/step - loss: 5.0800e-04 - val_loss: 4.8561e-04
+Epoch 43/60
+31/31 - 0s - 4ms/step - loss: 5.0513e-04 - val_loss: 4.8324e-04
+Epoch 44/60
+31/31 - 0s - 4ms/step - loss: 5.0412e-04 - val_loss: 4.8397e-04
+Epoch 45/60
+31/31 - 0s - 5ms/step - loss: 5.0075e-04 - val_loss: 4.7991e-04
+Epoch 46/60
+31/31 - 0s - 5ms/step - loss: 4.9596e-04 - val_loss: 4.7244e-04
+Epoch 47/60
+31/31 - 0s - 4ms/step - loss: 4.8808e-04 - val_loss: 4.6981e-04
+Epoch 48/60
+31/31 - 0s - 7ms/step - loss: 4.8570e-04 - val_loss: 4.6952e-04
+Epoch 49/60
+31/31 - 0s - 9ms/step - loss: 4.8138e-04 - val_loss: 4.6774e-04
+Epoch 50/60
+31/31 - 0s - 8ms/step - loss: 4.7874e-04 - val_loss: 4.6630e-04
+Epoch 51/60
+31/31 - 0s - 6ms/step - loss: 4.7577e-04 - val_loss: 4.6541e-04
+Epoch 52/60
+31/31 - 0s - 8ms/step - loss: 4.6984e-04 - val_loss: 4.6076e-04
+Epoch 53/60
+31/31 - 0s - 7ms/step - loss: 4.6431e-04 - val_loss: 4.5578e-04
+Epoch 54/60
+31/31 - 0s - 7ms/step - loss: 4.6067e-04 - val_loss: 4.5571e-04
+Epoch 55/60
+31/31 - 0s - 7ms/step - loss: 4.5993e-04 - val_loss: 4.5986e-04
+Epoch 56/60
+31/31 - 0s - 7ms/step - loss: 4.6082e-04 - val_loss: 4.5277e-04
+Epoch 57/60
+31/31 - 0s - 5ms/step - loss: 4.5229e-04 - val_loss: 4.5124e-04
+Epoch 58/60
+31/31 - 0s - 8ms/step - loss: 4.5650e-04 - val_loss: 4.5017e-04
+Epoch 59/60
+31/31 - 0s - 7ms/step - loss: 4.4854e-04 - val_loss: 4.4561e-04
+Epoch 60/60
+31/31 - 0s - 7ms/step - loss: 4.4631e-04 - val_loss: 4.4314e-04
+WARNING:tensorflow:6 out of the last 8 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x000002E06083BCE0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+computing SHAP ...
+lightweight study ...
+  top- 5: f1=0.8404 size=1761.4KB
+  top-10: f1=0.8346 size=1655.3KB
+  top-15: f1=0.8321 size=1579.3KB
+  top-20: f1=0.8296 size=1588.3KB
+  top-30: f1=0.8288 size=1558.7KB
+  top-49: f1=0.8395 size=1519.8KB
+zero-day leave-one-family-out ...
+  BruteForce  classifier=0.906 -> with AE=0.906
+  DDoS        classifier=0.890 -> with AE=0.956
+  DoS         classifier=0.985 -> with AE=1.000
+  Mirai       classifier=1.000 -> with AE=1.000
+  Recon       classifier=0.038 -> with AE=1.000
+  Spoofing    classifier=0.574 -> with AE=0.984
+  Web-based   classifier=0.438 -> with AE=0.719
+robustness ...
+  adversarial epoch 1/6
+  adversarial epoch 2/6
+  adversarial epoch 3/6
+  adversarial epoch 4/6
+  adversarial epoch 5/6
+  adversarial epoch 6/6
+done. results -> C:\Users\vediyappan.chinnasam\ExplainIDS\results

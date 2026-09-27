@@ -1,0 +1,170 @@
+[
+  {
+    "attack": "Gaussian noise",
+    "epsilon": 0.0,
+    "accuracy": 0.799373040752351,
+    "macro_f1": 0.8298303533467537,
+    "model": "Standard"
+  },
+  {
+    "attack": "FGSM",
+    "epsilon": 0.0,
+    "accuracy": 0.799373040752351,
+    "macro_f1": 0.8298303533467537,
+    "model": "Standard"
+  },
+  {
+    "attack": "Gaussian noise",
+    "epsilon": 0.01,
+    "accuracy": 0.7669801462904912,
+    "macro_f1": 0.7972924733360583,
+    "model": "Standard"
+  },
+  {
+    "attack": "FGSM",
+    "epsilon": 0.01,
+    "accuracy": 0.8202716823406478,
+    "macro_f1": 0.8235754975065249,
+    "model": "Standard"
+  },
+  {
+    "attack": "Gaussian noise",
+    "epsilon": 0.02,
+    "accuracy": 0.7324973876698014,
+    "macro_f1": 0.7576034888781864,
+    "model": "Standard"
+  },
+  {
+    "attack": "FGSM",
+    "epsilon": 0.02,
+    "accuracy": 0.6530825496342738,
+    "macro_f1": 0.6842235796135252,
+    "model": "Standard"
+  },
+  {
+    "attack": "Gaussian noise",
+    "epsilon": 0.05,
+    "accuracy": 0.6833855799373041,
+    "macro_f1": 0.6597383331421915,
+    "model": "Standard"
+  },
+  {
+    "attack": "FGSM",
+    "epsilon": 0.05,
+    "accuracy": 0.45141065830721006,
+    "macro_f1": 0.4047743048439191,
+    "model": "Standard"
+  },
+  {
+    "attack": "Gaussian noise",
+    "epsilon": 0.1,
+    "accuracy": 0.5182863113897597,
+    "macro_f1": 0.46372617134303534,
+    "model": "Standard"
+  },
+  {
+    "attack": "FGSM",
+    "epsilon": 0.1,
+    "accuracy": 0.09195402298850575,
+    "macro_f1": 0.04640797240150285,
+    "model": "Standard"
+  },
+  {
+    "attack": "Gaussian noise",
+    "epsilon": 0.2,
+    "accuracy": 0.322884012539185,
+    "macro_f1": 0.19596381080201203,
+    "model": "Standard"
+  },
+  {
+    "attack": "FGSM",
+    "epsilon": 0.2,
+    "accuracy": 0.06374085684430512,
+    "macro_f1": 0.02684734360667012,
+    "model": "Standard"
+  },
+  {
+    "attack": "Gaussian noise",
+    "epsilon": 0.0,
+    "accuracy": 0.8045977011494253,
+    "macro_f1": 0.8335076345606792,
+    "model": "Adversarially trained"
+  },
+  {
+    "attack": "FGSM",
+    "epsilon": 0.0,
+    "accuracy": 0.8045977011494253,
+    "macro_f1": 0.8335076345606792,
+    "model": "Adversarially trained"
+  },
+  {
+    "attack": "Gaussian noise",
+    "epsilon": 0.01,
+    "accuracy": 0.7366771159874608,
+    "macro_f1": 0.7650534061596523,
+    "model": "Adversarially trained"
+  },
+  {
+    "attack": "FGSM",
+    "epsilon": 0.01,
+    "accuracy": 0.8265412748171369,
+    "macro_f1": 0.8274824696110367,
+    "model": "Adversarially trained"
+  },
+  {
+    "attack": "Gaussian noise",
+    "epsilon": 0.02,
+    "accuracy": 0.723092998955068,
+    "macro_f1": 0.76264149102332,
+    "model": "Adversarially trained"
+  },
+  {
+    "attack": "FGSM",
+    "epsilon": 0.02,
+    "accuracy": 0.7001044932079414,
+    "macro_f1": 0.7288140565219239,
+    "model": "Adversarially trained"
+  },
+  {
+    "attack": "Gaussian noise",
+    "epsilon": 0.05,
+    "accuracy": 0.7001044932079414,
+    "macro_f1": 0.6713101850673442,
+    "model": "Adversarially trained"
+  },
+  {
+    "attack": "FGSM",
+    "epsilon": 0.05,
+    "accuracy": 0.5632183908045977,
+    "macro_f1": 0.5327253788255548,
+    "model": "Adversarially trained"
+  },
+  {
+    "attack": "Gaussian noise",
+    "epsilon": 0.1,
+    "accuracy": 0.5862068965517241,
+    "macro_f1": 0.5328386737517361,
+    "model": "Adversarially trained"
+  },
+  {
+    "attack": "FGSM",
+    "epsilon": 0.1,
+    "accuracy": 0.2779519331243469,
+    "macro_f1": 0.1750959881507634,
+    "model": "Adversarially trained"
+  },
+  {
+    "attack": "Gaussian noise",
+    "epsilon": 0.2,
+    "accuracy": 0.35318704284221525,
+    "macro_f1": 0.2258580342059033,
+    "model": "Adversarially trained"
+  },
+  {
+    "attack": "FGSM",
+    "epsilon": 0.2,
+    "accuracy": 0.04597701149425287,
+    "macro_f1": 0.02223409248098014,
+    "model": "Adversarially trained"
+  }
+]

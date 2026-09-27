@@ -1,0 +1,48 @@
+[theme]
+baseRadius = "medium"
+showWidgetBorder = true
+headingFontWeights = [700, 650, 600, 600, 600, 600]
+
+# ---------- Light theme ----------
+[theme.light]
+primaryColor = "#4f46e5"
+backgroundColor = "#f6f7fb"
+secondaryBackgroundColor = "#ffffff"
+textColor = "#1e2330"
+borderColor = "#e3e6ee"
+linkColor = "#4f46e5"
+codeBackgroundColor = "#eef0f7"
+dataframeHeaderBackgroundColor = "#f1f3f9"
+
+[theme.light.sidebar]
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f1f3f9"
+textColor = "#1e2330"
+borderColor = "#e3e6ee"
+
+# ---------- Dark theme ----------
+[theme.dark]
+primaryColor = "#818cf8"
+backgroundColor = "#0f1117"
+secondaryBackgroundColor = "#171a23"
+textColor = "#e6e8ef"
+borderColor = "#262a36"
+linkColor = "#a5b4fc"
+codeBackgroundColor = "#1c202b"
+dataframeHeaderBackgroundColor = "#1c202b"
+
+[theme.dark.sidebar]
+backgroundColor = "#12141b"
+secondaryBackgroundColor = "#1c202b"
+textColor = "#e6e8ef"
+borderColor = "#262a36"
+
+[server]
+maxUploadSize = 500
+headless = true
+
+[browser]
+gatherUsageStats = false
+
+[client]
+toolbarMode = "minimal"

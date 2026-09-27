@@ -1,0 +1,65 @@
+[
+  {
+    "held_out": "BruteForce",
+    "n_test": 160,
+    "classifier_only_detection": 0.9062,
+    "with_autoencoder_detection": 0.9062,
+    "flagged_unknown_rate": 0.0312,
+    "benign_false_positive_classifier": 0.2899,
+    "benign_false_positive_system": 0.2971
+  },
+  {
+    "held_out": "DDoS",
+    "n_test": 91,
+    "classifier_only_detection": 0.8901,
+    "with_autoencoder_detection": 0.956,
+    "flagged_unknown_rate": 0.1758,
+    "benign_false_positive_classifier": 0.2971,
+    "benign_false_positive_system": 0.3116
+  },
+  {
+    "held_out": "DoS",
+    "n_test": 195,
+    "classifier_only_detection": 0.9846,
+    "with_autoencoder_detection": 1.0,
+    "flagged_unknown_rate": 0.0564,
+    "benign_false_positive_classifier": 0.2971,
+    "benign_false_positive_system": 0.3261
+  },
+  {
+    "held_out": "Mirai",
+    "n_test": 13,
+    "classifier_only_detection": 1.0,
+    "with_autoencoder_detection": 1.0,
+    "flagged_unknown_rate": 0.0,
+    "benign_false_positive_classifier": 0.2971,
+    "benign_false_positive_system": 0.3188
+  },
+  {
+    "held_out": "Recon",
+    "n_test": 78,
+    "classifier_only_detection": 0.0385,
+    "with_autoencoder_detection": 1.0,
+    "flagged_unknown_rate": 0.9615,
+    "benign_false_positive_classifier": 0.2899,
+    "benign_false_positive_system": 0.2971
+  },
+  {
+    "held_out": "Spoofing",
+    "n_test": 122,
+    "classifier_only_detection": 0.5738,
+    "with_autoencoder_detection": 0.9836,
+    "flagged_unknown_rate": 0.623,
+    "benign_false_positive_classifier": 0.2971,
+    "benign_false_positive_system": 0.3116
+  },
+  {
+    "held_out": "Web-based",
+    "n_test": 160,
+    "classifier_only_detection": 0.4375,
+    "with_autoencoder_detection": 0.7188,
+    "flagged_unknown_rate": 0.2812,
+    "benign_false_positive_classifier": 0.2826,
+    "benign_false_positive_system": 0.2971
+  }
+]
